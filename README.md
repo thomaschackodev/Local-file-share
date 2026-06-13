@@ -23,6 +23,9 @@ A simple Node.js web app for sharing files between devices on the same Wi-Fi net
 ### Prerequisites
 - [Node.js](https://nodejs.org) installed on your computer
 
+###Installation
+1. Clone this repository
+
 - git clone https://github.com/thomaschackodev/Local-file-share.git
 
 cd Local-file-share
@@ -56,6 +59,3 @@ node server.js
 - [Express](https://expressjs.com)
 - [Multer](https://github.com/expressjs/multer) — file upload handling
 - [qrcode](https://www.npmjs.com/package/qrcode) — QR code generation    
-### Installation
-
-1. Clone this repository
