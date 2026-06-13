@@ -1,16 +1,16 @@
-# Local File Share
+#📁Local File Share
 
 A simple Node.js web app for sharing files between devices on the same Wi-Fi network — no cloud, no cables, no USB drives. Upload a file, get a download link and QR code, and open it on any other device connected to the same network.
 
 ## Features
 
-- Upload any file from one device
-- Generates a shareable download link
-- Generates a QR code for quick scanning on another device
-- Preserves original file extensions
-- Simple, styled UI
+- 📤Upload any file from one device
+- 🔗Generates a shareable download link
+- 📱Generates a QR code for quick scanning on another device
+- 🗂️Preserves original file extensions
+- 🎨Simple, styled UI
 
-## How It Works
+##⚙️How It Works
 
 1. Run the server on your computer
 2. Open the web page and upload a file
@@ -18,12 +18,12 @@ A simple Node.js web app for sharing files between devices on the same Wi-Fi net
 4. Open the link (or scan the QR code) on another device connected to the same Wi-Fi
 5. The file downloads automatically
 
-## Getting Started
+##🚀Getting Started
 
-### Prerequisites
+###✅Prerequisites
 - [Node.js](https://nodejs.org) installed on your computer
 
-###Installation
+### Installation
 1. Clone this repository
 
 - git clone https://github.com/thomaschackodev/Local-file-share.git
@@ -47,13 +47,18 @@ node server.js
 
 6. Open `http://localhost:3000` in your browser
 
-## Notes
+##📝Notes
 
 - Both devices must be connected to the same Wi-Fi network
 - If the link doesn't work on another device, check that your firewall allows Node.js on private networks
 - Your local IP address may change if you reconnect to Wi-Fi or restart your router
 
-## Built With
+## Stylesheets
+
+- `style.css` — styles for the upload page
+- `style2.css` — styles for the success/download page
+
+##🛠️Built With
 
 - [Node.js](https://nodejs.org)
 - [Express](https://expressjs.com)
